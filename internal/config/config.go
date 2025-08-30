@@ -1,7 +1,7 @@
 package config
 
 import (
-	"fmt"
+	// "fmt"
 	"log"
 	"net"
 	"os"
@@ -60,7 +60,7 @@ func MustLoad() *Config {
 		log.Fatalf("CORS.AllowedOrigins cannot be empty")
 	}
 
-	fmt.Printf("config %+v", cfg)
+	// fmt.Printf("config %+v", cfg)
 
 	return &cfg
 }
